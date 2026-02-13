@@ -1,5 +1,6 @@
 package net.brian.tutorialmod;
 
+import net.brian.tutorialmod.block.ModBlocks;
 import net.brian.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,6 +15,7 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 		
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 		LOGGER.info("Hello Fabric world!");
 	}
