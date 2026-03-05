@@ -4,8 +4,8 @@
     "item.tutorial-mod.plasteel_ingot": "Plasteel Ingot",
     "item.tutorial-mod.raw_titanium": "Raw Titanium",
 
-    "block.tutorialmod.pink_garnet_block": "Block of Pink Garnet",
-    "block.tutorialmod.titanium_block": "Titanium Block",
-    "block.tutorialmod.raw_titanium_block": "Raw Titanium Block",
-    "block.tutorialmod.titanium_ore": "Titanium Ore"
+    "block.tutorial-mod.pink_garnet_block": "Block of Pink Garnet",
+    "block.tutorial-mod.titanium_block": "Titanium Block",
+    "block.tutorial-mod.raw_titanium_block": "Raw Titanium Block",
+    "block.tutorial-mod.titanium_ore": "Titanium Ore"
 }

@@ -18,6 +18,8 @@ public class ModBlocks {
     public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block", 
             new Block(AbstractBlock.Settings.create().strength(4f)
                 .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+        
+    
 
 
     public static final Block TITANIUM_BLOCK = registerBlock("titanium_block", 
@@ -47,7 +49,7 @@ public class ModBlocks {
         TutorialMod.LOGGER.info("Registering Mod Blocks for " + TutorialMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(PINK_GARNET_BLOCK);
+            entries.add(ModBlocks.PINK_GARNET_BLOCK);
             entries.add(TITANIUM_BLOCK);
             entries.add(RAW_TITANIUM_BLOCK);
             entries.add(TITAINIUM_ORE);
