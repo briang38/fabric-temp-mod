@@ -1,6 +1,7 @@
 package net.brian.tutorialmod;
 
 import net.brian.tutorialmod.block.ModBlocks;
+import net.brian.tutorialmod.item.ModItemGroups;
 import net.brian.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,6 +15,9 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		
+
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 

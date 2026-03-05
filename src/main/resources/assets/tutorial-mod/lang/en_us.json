@@ -8,5 +8,8 @@
     "block.tutorial-mod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
     "block.tutorial-mod.titanium_block": "Titanium Block",
     "block.tutorial-mod.raw_titanium_block": "Raw Titanium Block",
-    "block.tutorial-mod.titanium_ore": "Titanium Ore"
+    "block.tutorial-mod.titanium_ore": "Titanium Ore",
+
+    "itemgroup.tutorial-mod.pink_garnet_items": "Pink Garnet Items",
+    "itemgroup.tutorial-mod.pink_garnet_blocks": "Pink Garnet Blocks"
 }
