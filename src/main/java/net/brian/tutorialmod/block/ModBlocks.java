@@ -32,7 +32,7 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(3f)
                 .requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
 
-    public static final Block TITANIUM_ORE = registerBlock("titanium_ore", 
+    public static final Block TITANIUM_ORE_BLOCK = registerBlock("titanium_ore_block", 
             new Block(AbstractBlock.Settings.create().strength(3f)
                 .requiresTool().sounds(BlockSoundGroup.STONE)));
 
@@ -54,7 +54,7 @@ public class ModBlocks {
             entries.add(ModBlocks.PINK_GARNET_BLOCK);
             entries.add(ModBlocks.TITANIUM_BLOCK);
             entries.add(ModBlocks.RAW_TITANIUM_BLOCK);
-            entries.add(ModBlocks.TITANIUM_ORE);
+            entries.add(ModBlocks.TITANIUM_ORE_BLOCK);
             entries.add(ModBlocks.PINK_GARNET_BLOCK);
             entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
             
