@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "tutorial-mod:block/raw_titanium_block"
+    "all": "tutorial-mod:block/titanium_ore_block"
   }
 }
