@@ -5,7 +5,7 @@
     "experience": 0.2,
     "group": "titanium_ingot",
     "ingredient": {
-        "item": "tutorial-mod:block/titanium_ore_block"
+        "item": "tutorial-mod:titanium_ore_block"
     },
     "result": {
         "id": "tutorial-mod:titanium_ingot"
